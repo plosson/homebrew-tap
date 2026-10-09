@@ -1,6 +1,6 @@
 cask "copycat" do
-  version "1.0.0"
-  sha256 "57fdd3b32fd683f537ba3208f9b95f94f914e97447b6767e7af60b3991fde352"
+  version "1.1.0"
+  sha256 "44c601f1e57f7b69e473d4ad1701351a041e9ef07669e107b8584aea5355f078"
 
   url "https://github.com/plosson/copycat/releases/download/v#{version}/Copycat-#{version}.zip"
   name "Copycat"
