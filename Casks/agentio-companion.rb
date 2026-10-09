@@ -1,6 +1,6 @@
 cask "agentio-companion" do
-  version "0.1.0"
-  sha256 "25a6fee111feca4c4eda4f4e0e955a8d36042656a2c7f6a206ffdf84f72b5451"
+  version "0.2.0"
+  sha256 "15b9f434f1ad513222b51c75dccf7173b8a640b2f2a0090acd2041868a250c24"
 
   url "https://github.com/plosson/agentio-app/releases/download/v#{version}/AgentIO-Companion-#{version}.zip"
   name "AgentIO Companion"
