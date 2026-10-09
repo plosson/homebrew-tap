@@ -4,7 +4,7 @@ cask "pocket-pager" do
 
   url "https://github.com/plosson/pagerio/releases/download/v#{version}/Pocket-Pager-#{version}.zip"
   name "Pocket Pager"
-  desc "Personal pager: scripts and AI agents page your Mac through a private URL"
+  desc "Personal pager that scripts and AI agents call through a private URL"
   homepage "https://github.com/plosson/pagerio"
 
   # Sparkle updates the app in place; brew upgrade leaves it alone unless --greedy.
