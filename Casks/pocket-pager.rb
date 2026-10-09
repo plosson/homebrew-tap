@@ -1,6 +1,6 @@
 cask "pocket-pager" do
-  version "0.3.0"
-  sha256 "d19d420b6799656953a034a61a465f0a1b4b894251ec20b040a7ccd7984ccd0d"
+  version "0.4.0"
+  sha256 "6fa18f4c7e4182e25a54f6aaa7bd5e7f9dd7c4245d47275d0b4187ffb3bc8b90"
 
   url "https://github.com/plosson/pagerio/releases/download/v#{version}/Pocket-Pager-#{version}.zip"
   name "Pocket Pager"
