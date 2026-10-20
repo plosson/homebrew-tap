@@ -1,6 +1,6 @@
 cask "siteio-companion" do
-  version "0.1.0"
-  sha256 "4fe0d345680c3ed11b8cb277de9dce65a4c322b777153efc9ba8ede6bc658935"
+  version "0.1.1"
+  sha256 "e1e16ec75453717f25459711b8616bb887b3d4ea035bdfe8448711bb36610f29"
 
   url "https://github.com/plosson/siteio-app/releases/download/v#{version}/siteio-Companion-#{version}.zip"
   name "siteio Companion"
