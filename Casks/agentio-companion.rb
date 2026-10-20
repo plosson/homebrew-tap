@@ -1,9 +1,9 @@
 cask "agentio-companion" do
-  version "0.2.0"
-  sha256 "15b9f434f1ad513222b51c75dccf7173b8a640b2f2a0090acd2041868a250c24"
+  version "0.3.0"
+  sha256 "5f3fb34c94bcd9cad5a3574b0d8d1c7d720c6808938e17681e3e1f04f3e4a2f2"
 
-  url "https://github.com/plosson/agentio-app/releases/download/v#{version}/AgentIO-Companion-#{version}.zip"
-  name "AgentIO Companion"
+  url "https://github.com/plosson/agentio-app/releases/download/v#{version}/AgentIO-#{version}.zip"
+  name "AgentIO"
   desc "Desktop companion for AgentIO vaults"
   homepage "https://github.com/plosson/agentio-app"
 
@@ -11,7 +11,7 @@ cask "agentio-companion" do
   auto_updates true
   depends_on macos: :sonoma
 
-  app "AgentIO Companion.app"
+  app "AgentIO.app"
 
   zap trash: [
     "~/Library/Caches/com.plosson.agentio-companion",
