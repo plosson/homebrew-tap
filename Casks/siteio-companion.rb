@@ -1,9 +1,9 @@
 cask "siteio-companion" do
-  version "0.1.1"
-  sha256 "e1e16ec75453717f25459711b8616bb887b3d4ea035bdfe8448711bb36610f29"
+  version "0.2.0"
+  sha256 "ec05a2adfa9218a1bef65ad4f698fe5c8814316884bcb1be693ca4966d639f19"
 
-  url "https://github.com/plosson/siteio-app/releases/download/v#{version}/siteio-Companion-#{version}.zip"
-  name "siteio Companion"
+  url "https://github.com/plosson/siteio-app/releases/download/v#{version}/SiteIO-#{version}.zip"
+  name "SiteIO"
   desc "Desktop companion for siteio servers"
   homepage "https://github.com/plosson/siteio-app"
 
@@ -11,7 +11,7 @@ cask "siteio-companion" do
   auto_updates true
   depends_on macos: :sonoma
 
-  app "siteio Companion.app"
+  app "SiteIO.app"
 
   zap trash: [
     "~/Library/Caches/com.plosson.siteio-companion",
